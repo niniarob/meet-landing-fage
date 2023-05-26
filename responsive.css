@@ -1,0 +1,185 @@
+@media screen and (max-width:799px){
+    .container{
+        width: 375px;
+    }
+    .left-img 
+    .left{
+        display: none;
+    }
+    .right-img
+    .right{
+        display: none;
+    }
+    .element{
+        position: relative;
+        top: 33px;
+    }
+    
+}
+@media screen  and (min-width:800px){
+    .container{
+        width: 768px;
+    }
+    .group-img{
+        width: 100%;
+    }
+    .left-img 
+    .left{
+        display: none;
+    }
+    .right-img
+    .right{
+        display: none;
+    }
+    .chat-texts{
+        width: 768px;
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .chat-texts
+    .column
+    .chat-text{
+        width: 339px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .meet-paragraph{
+        width: 457px;
+    }
+    .buttons-box{
+        width: 768px;
+        display: flex;
+        flex-direction: row;  
+    }
+    .but-one{
+        margin-right: 16px;
+    }
+    .built-texts{
+        width: 768px;
+        display: flex;
+    }
+    .smart-text{
+        width: 445px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .second-prg{
+        width: 573px;
+    }
+    .element{
+        position: relative;
+        top:33px ;
+    }
+    .last-img{
+        width: 768px;
+        background-image: url(./assets/Bitmap\ \(6\).svg);
+    }
+    .smart-text{
+        width: 457px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .prg-text{
+        width: 573px;
+        padding-top: 32px;
+    }
+    .butt{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media screen  and (min-width:1440px){
+    .container{
+        width: 1519px;
+        display: flex;
+        flex-direction: column;
+    }
+    .group{
+        display: none;
+    }
+    .chat-texts{
+        width: 1519px;
+        display: flex;
+        flex-direction: row;
+    } 
+    .column{
+        width: 1519px;
+        display: flex;
+        flex-direction: column;  
+    }
+    .chat-texts
+    .column
+    .chat-text{
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .meet-paragraph{
+        width: 490px;
+        font-size: 16px;
+
+    }
+    .buttons-box{
+        margin: auto;
+        margin-top: 32px;
+    }
+    .left-img 
+    .left{
+        display: block;
+        width: 350px;
+    }
+    .right-img
+    .right{
+        display: block;
+        width: 350px;
+    }
+    .pseudo-element{
+        margin-top: 117px;
+    }
+    .wrap-box{
+        width: 1519px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .wrap-box
+    .wrap-img{
+        width: 300px;
+    }
+    .built-texts{
+        width: 1519px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-smart {
+        width: 450px;
+        margin-top: 16px;
+    }
+    .second-prg{
+        width: 510px;
+        font-size: 18px;  
+    }
+    .last-img{
+        width: 1519px;
+        background-image: url(./assets/Bitmap\ \(7\).svg);
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .smart-text{
+        width: 440px;
+        margin-bottom: 60px;
+    }
+    .prg-text{
+        width: 350px;
+    }
+    .element{
+        position: relative;
+        top: 35px;
+    }   
+}

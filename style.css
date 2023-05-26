@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+:root{
+    --lightBlack:#28283D;
+    --lightGray:#87879D;
+    --blue:#4D96A9;
+    --lightBlue:#8FE3F9;
+    --purple:#855FB1;
+    --white:#FFFFFF;
+    --darkWhite:#FAFAFA;
+    --lightPurple:#D9B8FF;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+.container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--white);
+}
+.logo{
+    margin-top: 48px;
+}
+.group{
+    margin-top: 54px;
+}
+.column
+.meet-paragraph{
+    padding-top: 24px;
+
+}
+.chat-texts{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 28px;
+    row-gap: 24px;
+}
+.chat-texts
+.column 
+.chat-text{
+    width: 290px; 
+    color: var(--lightBlack);
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 44px;
+    margin: auto;
+    font-size: Black;
+}
+.meet-paragraph{
+    width: 327px; 
+    color: var(--lightGray);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: Medium; 
+    text-align: center;
+    width: 327px;
+    margin: auto;
+}
+.buttons-box{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    row-gap: 14px;
+}
+.buttons-box 
+a{
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+.but-one {
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--blue); 
+    border-style: none;  
+    
+}
+.but-one a{
+    color: var(--white);
+}
+.but-one:hover{
+    background-color: #ffffff;
+    border: 2px solid #4D96A9;
+    transition: 1s;
+}
+.but-one
+a:hover{
+color: var(--lightBlue);
+transition: 1s;
+}
+
+span{
+    color: var(--lightBlue);
+    padding-left: 4px;
+}
+.but-two{
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--purple);
+    border-style: none;
+}
+.but-two a {
+    color: var(--white);
+}
+.but-two:hover{
+    background-color: var(--white);
+    border: 2px solid #855FB1;
+    transition: 1s; 
+}
+.but-two
+.link-two:hover{
+color: #855FB1;
+}
+.pseudo-element{
+    margin-top: 64px;
+}
+
+.wrap-box{
+    margin-top: 64px;
+    
+}
+.wrap-img{
+   padding: 14px;
+}
+.built-texts{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 24px;
+}
+.built{
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--blue);
+}
+.smart-text{
+    color: var(--lightBlack);
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    width: 327px;
+}
+.second-prg{
+    width: 327px;
+    height: 130px;
+}
+.last-img{
+    width: 375px;
+    background-image: url(./assets/Bitmap\ \(4\).svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.texts{
+    color: var(--white);
+    margin: auto;
+    padding-top: 68px;
+}
+.prg-text{
+    padding-top: 27px;
+    width: 327px;
+    margin: auto;
+}
+.butt a{
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: var(--purple);
+}
+.last-img .butt{
+    background-color: #855FB1;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 53px;   
+}
+.v1-3{
+    color: var(--lightPurple);
+}
