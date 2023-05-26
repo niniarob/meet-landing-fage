@@ -170,6 +170,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-aling:start;
     }
     .smart-text{
         width: 440px;
@@ -177,9 +178,12 @@
     }
     .prg-text{
         width: 350px;
+        padding-top:1px;
     }
     .element{
         position: relative;
         top: 35px;
-    }   
+    }  
+    .butt{
+        margin-bottom:51px;
 }
